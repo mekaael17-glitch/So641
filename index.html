@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>So641 - تعديل الصور بالذكاء الاصطناعي</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>موقع So641 لتعديل الصور</h1>
+            <p>قم برفع صورتك لتعديلها باستخدام الذكاء الاصطناعي</p>
+        </header>
+
+        <main>
+            <section class="upload-section">
+                <input type="file" id="imageInput" accept="image/*">
+                <label for="imageInput" class="upload-btn">اختر صورة من جهازك</label>
+            </section>
+
+            <section class="preview-section">
+                <div class="image-box">
+                    <img id="imagePreview" src="" alt="معاينة الصورة" style="display: none;">
+                </div>
+            </section>
+
+            <section class="controls-section">
+                <button id="processBtn" class="action-btn">معالجة الصورة</button>
+            </section>
+        </main>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
